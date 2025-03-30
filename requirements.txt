@@ -1,0 +1,54 @@
+# XHS-HotCommentsCrawler项目依赖列表
+
+# 数据处理和分析
+pandas>=1.3.0
+numpy>=1.20.0
+scipy>=1.7.0
+
+# 网页爬虫
+requests>=2.25.0
+selenium>=4.1.0
+beautifulsoup4>=4.9.0
+fake_useragent>=0.1.11
+webdriver_manager>=3.5.0
+
+# 自然语言处理
+jieba>=0.42.0
+snownlp>=0.12.3
+scikit-learn>=1.0.0
+
+# 数据可视化
+matplotlib>=3.4.0
+seaborn>=0.11.0
+pyvis>=0.1.9
+wordcloud>=1.8.0
+
+# Jupyter交互工具
+ipywidgets>=7.6.0
+ipython>=7.0.0
+
+# 数据存储
+openpyxl>=3.0.0
+xlrd>=2.0.0
+xlwt>=1.3.0
+
+# 其他工具
+tqdm>=4.60.0
+python-dateutil>=2.8.0
+emoji>=1.6.0
+
+# 可选依赖 - 大模型相关(默认不安装，需要时取消注释)
+# torch>=1.9.0
+# transformers>=4.10.0
+# sentence-transformers>=2.0.0
+# gensim>=4.0.0
+
+# 可选依赖 - 高级可视化(默认不安装，需要时取消注释)
+# plotly>=5.0.0
+# dash>=2.0.0
+# altair>=4.1.0
+
+# 可选依赖 - 高级NLP(默认不安装，需要时取消注释)
+# nltk>=3.6.0
+# spacy>=3.0.0
+# textblob>=0.15.3

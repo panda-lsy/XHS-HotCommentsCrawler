@@ -1,0 +1,5 @@
+/temp/*
+/chrome_persistent_cache
+/__pycache__
+config.json
+cookies.json
